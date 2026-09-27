@@ -1,0 +1,21 @@
+use_default_settings: true
+
+server:
+  # Give your search engine a cool custom title header
+  name: "Rashmi's Private Search"
+  secret_key: "tungtungsahur_tralalatralalo@6767"
+  bind_address: "0.0.0.0"
+  port: 8080
+  method: "GET"
+
+ui:
+  # Choose your base aesthetic theme (options include: simple, oscar, or subtle)
+  default_theme: "oscar"
+  # Centers alignment for a clean, distraction-free layout
+  center_alignment: true
+  # Disable infinite scroll if you prefer neat pagination pages
+  infinite_scroll: false
+
+search:
+  safe_search: 1
+  autocomplete: "duckduckgo"
